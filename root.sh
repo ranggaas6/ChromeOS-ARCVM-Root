@@ -12,8 +12,8 @@ RESET='\e[0m'
 BACKUP_PATH=/mnt/stateful_partition/arcvm_root
 KERNEL_PATH=/opt/google/vms/android
 
-KSU_VER='v0.9.3'
-KERNEL_VER='5.10.209'
+KSU_VER='v0.8.1'
+KERNEL_VER='5.10.214'
 ARCH="`arch`"
 if [[ "$ARCH" =~ "aarch64" ]];then
   ARCH='arm64'
@@ -72,7 +72,7 @@ fi
 cd /tmp
 echo '[+] Downloading kernel...'
 echo "${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip"
-curl -L -'#' "https://github.com/tiann/KernelSU/releases/download/${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip" -o ksu.zip
+curl -L -'#' "https://github.com/ranggaas6/ChromeOS-ARCVM-Root/releases/download/test/${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip" -o ksu.zip
 
 echo '[+] Decompressing kernel...'
 mkdir -p ksu
