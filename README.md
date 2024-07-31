@@ -12,7 +12,7 @@ This script will download and install the prebuilt ARCVM kernel from KernelSU Gi
 
 #### Root
 ```shell
-curl -Ls https://raw.githubusercontent.com/supechicken/ChromeOS-ARCVM-Root/main/root.sh | sudo bash -eu
+curl -Ls https://raw.githubusercontent.com/ranggaas6/ChromeOS-ARCVM-Root/main/root.sh | sudo bash -eu
 ```
 
 #### Unroot
