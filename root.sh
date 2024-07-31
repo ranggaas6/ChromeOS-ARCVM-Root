@@ -72,7 +72,7 @@ fi
 cd /tmp
 echo '[+] Downloading kernel...'
 echo "${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip"
-curl -L -'#' "https://github.com/ranggaas6/ChromeOS-ARCVM-Root/releases/download/test/${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip" -o ksu.zip
+curl -L -'#' "https://github.com/ranggaas6/KernelSU/releases/download/${KSU_VER}/kernel-ARCVM-${ARCH}-${KERNEL_VER}.zip" -o ksu.zip
 
 echo '[+] Decompressing kernel...'
 mkdir -p ksu
