@@ -12,7 +12,7 @@ RESET='\e[0m'
 BACKUP_PATH=/mnt/stateful_partition/arcvm_root
 KERNEL_PATH=/opt/google/vms/android
 
-KSU_VER='v0.8.1'
+KSU_VER='v0.7.6'
 KERNEL_VER='5.10.178'
 ARCH="`arch`"
 if [[ "$ARCH" =~ "aarch64" ]];then
